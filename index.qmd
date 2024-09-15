@@ -1,7 +1,125 @@
 ---
-title: "./datasolidarity-community.github.io"
+sidebar: true
+toc: false
+format:
+  html:
+    page-layout: article
 ---
+```{=html}
+<div class="p-5 mb-4 bg-light rounded-3 bgimg">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Data solidarity:<br>towards better collective control of health data</h1>
+  </div>
+</div>
+<p class="lead">
+   <small class="text-hero">ANNOUNCING A WORKING CONFERENCE ON DATA SOLIDARITY IN HEALTHCARE<br>
+   NATIONAL HEALTH CARE INSTITUTE<br>DIEMEN, THE NETHERLANDS &ensp; | &ensp; 13 December 2024 </small>
+</p>
+<style type="text/css">
+.lead {
+    font-family: "Zilla Slab";
+    text-align: center;
+}
 
-This is a Quarto website.
+.bgimg {
+  background-image: url('hero-smaller.png');
+  Background-size: cover;
+}
+.hero-quote {
+  font-family: "Zilla Slab";
+  font-color: white;
+  color: white;
+}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+.fw-bold {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-style: bold !important;
+  color: black !important;
+}
+</style>
+```
+<br><br>
+
+::: {.grid}
+::: {.g-col-2}
+:::
+
+::: {.g-col-8}
+### "Data solidarity argues that the predominant Western approach to try to address power asymmetries by giving people more control over their data at the individual level is insufficient to solve structural problems. This instead requires strengthening collective forms of control, responsibility, and oversight."
+<br>
+
+Barbara Prainsack & Seliem El-Sayed (2023) Beyond Individual Rights: How Data Solidarity Gives People Meaningful Control over Data, The American Journal of Bioethics, 23:11, 36-39, DOI: [https://doi.org/10.1080/15265161.2023.2256267](resources/prainsack2023beyond.pdf)
+:::
+
+::: {.g-col-2}
+:::
+:::
+<br><br>
+
+:::: {#light-grey-background}
+::: {.grid}
+::: {.g-col-8}
+### Join us for the inaugural European working conference on data solidarity in healthcare.
+
+Be part of a pioneering event where we delve into the practical implementation of key concepts like data solidarity, data commons, data governance, and regenerative AI.
+
+Featuring insights from leading experts including Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, Robin van Kessel, and Bart de Witte, this conference promises a rich exchange of ideas and innovative strategies. Sessions will be conducted in both Dutch and English.
+
+Don’t miss this opportunity to contribute to the future of data in healthcare!
+
+```{=html}
+<a href="register.qmd" class="btn btn-primary btn-lg" type="button">Register</a>
+```
+:::
+
+:::{.g-col-4}
+<br>
+
+![](images/noun-generative-ai-inverse.png)
+:::
+:::
+::::
+
+```{=html}
+<style>
+#light-grey-background {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  background-color: #164272;
+  color: #ffffff;
+  border-radius: .3rem !important;
+}
+#logo-board {
+  padding-top: 20px;
+  border-radius: .3rem !important;
+  background-color: #ffffff;
+}
+</style>
+```
+<br><br>
+
+
+
+::: {.grid}
+::: {.g-col-2}
+:::
+
+::: {.g-col-8}
+### Doe mee aan de eerste Europese werkconferentie over data solidariteit in de gezondheidszorg
+
+Wees onderdeel van een baanbrekend evenement waar we de praktische implementatie van sleutelconcepten zoals data solidarity, data commons, data governance en regenerative AI verkennen.
+
+Met inzichten van vooraanstaande experts, waaronder Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, Robin van Kessel en Bart de Witte, belooft deze conferentie een rijke uitwisseling van ideeën en oplossingsstrategieën. De sessies worden zowel in het Nederlands als in het Engels gehouden.
+
+Mis deze kans niet om bij te dragen aan de toekomst van data in de gezondheidszorg!
+
+```{=html}
+<a href="register.qmd" class="btn btn-primary btn-lg" type="button">Schrijf je in</a>
+```
+
+:::
+
+::: {.g-col-2}
+:::
+:::

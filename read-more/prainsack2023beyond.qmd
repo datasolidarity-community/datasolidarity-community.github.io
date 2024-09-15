@@ -1,0 +1,14 @@
+---
+title: Beyond Individual Rights - How Data Solidarity Gives People Meaningful Control over Data
+author:
+    - Barbara Prainsack
+    - Seliem El-Sayed
+description: |
+   In today’s digital societies, it has become very difficult for people to exercise meaningful control over what and how data is collected and used. The Ethical Data Practices Framework (EDP) seeks to improve upon current data protection paradigms by overcoming the narrow focus on individual autonomy and pledging to uphold a set of relevant ethical principles. While helpful in many regards, EDP leaves a few issues unaddressed. Solidarity-based data governance (in short: data solidarity) offers a solution that fills some of the gaps that the EDP leaves open.
+date: 2023-10-25
+image: /images/barbara.jpg
+title-block-banner: false
+toc: false
+---
+
+{{< pdf /resources/prainsack2023beyond.pdf width=100% height=800 >}}

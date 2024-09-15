@@ -1,0 +1,14 @@
+---
+title: Data as an economic good, data as a commons, and data governance
+author:
+    - Nadya Purtova
+    - Gijs van Maanen
+description: |
+    This paper provides a systematic and critical review of the economics literature on data as an economic good and draws lessons for data governance. We conclude that focusing on data as an economic good in governance efforts is hardwired to only result in more data production and cannot deliver other societal goals contrary to what is often claimed in the literature and policy. Data governance is often a red herring which distracts from other digital problems. The governance of digital society cannot rely exclusively on data-centric economic models. We review the literatures and the underlying empirical and political claims concerning data commons. While commons thinking is useful to frame digital problems in terms of ecologies, it has important limitations. We propose a political-ecological approach to governing the digital society, defined by ecological thinking about governance problems and the awareness of the political nature of framing the problems and mapping their ecological makeup.
+date: 2023-11-01
+image: /images/nadezhda-purtova.jpeg
+title-block-banner: false
+toc: false
+---
+
+{{< pdf /resources/purtova2023data.pdf width=100% height=800 >}}

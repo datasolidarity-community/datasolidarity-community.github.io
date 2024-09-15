@@ -1,0 +1,13 @@
+---
+title: Het datalandschap als voedselbos voor een lerend zorgsysteem
+author:
+    - Robert Verheij
+description: |
+   Met de meest geavanceerde technieken genereren we enorme hoeveelheden data, ook op het gebied van gezondheid en gezondheidszorg. We zien dat deze data nog onvoldoende gebruikt worden in onderzoek om de zorg beter te maken. In zijn oratie gaat Robert Verheij in op de vraag wat er voor nodig is om dit te veranderen.
+date: 2021-09-17
+image: /images/robert-verheij.jpeg
+title-block-banner: false
+toc: false
+---
+
+{{< pdf /resources/verheij2021zorglandschap.pdf width=100% height=800 >}}

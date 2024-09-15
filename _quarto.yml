@@ -2,18 +2,36 @@ project:
   type: website
 
 website:
-  title: "./datasolidarity-community.github.io"
+  title: "Data Solidarity"
+  search: false
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+    title: false
+    pinned: false
+    collapse-below: md
+  sidebar:
+    logo: logo-zorginstituut.png
+    style: docked  
+    collapse-level: 1
+    background: light
+    contents:
+      - text: "Register | Inschrijven"
+        href: register.qmd
+      - text: "Read more | Lees meer"
+        href: more.qmd
+      - text: "About | Over"
+        href: about.qmd
 format:
   html:
-    theme: cosmo
+    page-layout: full
+    date-format: "MMM YYYY"
+    theme:
+      light:
+        - flatly
+        - mozilla.scss
     css: styles.css
-    toc: true
+    toc: false
 
+execute: 
+  freeze: auto
 
 
