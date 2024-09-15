@@ -1,5 +1,5 @@
 ---
-title: Data as an economic good, data as a commons, and data governance
+title: Mapping the regulatory landscape for articifical intelligence in health within the European Union
 author:
     - Bart de Witte
     - Robin van Kessel et al.
