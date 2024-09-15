@@ -9,11 +9,13 @@ website:
     pinned: false
     collapse-below: md
   sidebar:
-    logo: logo-zorginstituut.png
+    # logo: logo-zorginstituut.png
     style: docked  
     collapse-level: 1
     background: light
     contents:
+      - text: "Home"
+        href: index.qmd
       - text: "Register | Inschrijven"
         href: register.qmd
       - text: "Read more | Lees meer"
