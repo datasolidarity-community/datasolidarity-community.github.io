@@ -3,6 +3,7 @@ title: "About"
 ---
 
 The National Health Care Institute (NHCI) is one of the key public institutions tasked with overseeing the national healthcare system in the Netherlands. Its core responsibilities include:
+
 - advising the Ministry of Health on the scope of the basic health insurance package;
 - promoting the quality, affordability and accessibility of care;
 - developing information standards; encourage utilisation of digital health;
