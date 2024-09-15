@@ -1,7 +1,44 @@
 ---
-title: "./datasolidarity-community.github.io"
+title: ""
+page-layout: custom
+section-divs: false
+css: index.css
+hide-description: true
+
 ---
 
-This is a Quarto website.
+::: {.hero-banner}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+::: {.content-block}
+
+::: {.hero-text}
+
+"Data solidarity argues that the predominant Western approach to try to address power asymmetries by giving people more control over their data at the individual level is insufficient to solve structural problems. This instead requires strengthening collective forms of control, responsibility, and oversight."
+
+Barbara Prainsack & Seliem El-Sayed (2023) Beyond Individual Rights: How Data Solidarity Gives People Meaningful Control over Data, The American Journal of Bioethics, 23:11, 36-39, DOI: [https://doi.org/10.1080/15265161.2023.2256267](resources/prainsack2023beyond.pdf)
+
+:::
+:::
+:::
+
+::: {.hello-quarto .alt-background}
+::: {.content-block}
+Join Us for the Inaugural European Working Conference on Data Solidarity in Healthcare
+
+Be part of a pioneering event where we delve into the practical implementation of key concepts like Data Solidarity, Data Commons, Data Governance, and Regenerative AI.
+
+Featuring insights from leading experts including Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, Robin van Kessel, and Bart de Witte, this conference promises a rich exchange of ideas and innovative strategies.
+
+Sessions will be conducted in both Dutch and English.
+
+Don’t miss this opportunity to contribute to the future of data in healthcare! [OPTIONEEL: CAP OP AANTAL INSCHRIJVINGEN]
+
+
+Sign in <zelf formuliertje maken op de website>
+
+::: {.hero-buttons}
+[Register](https://forms.gle/TZARpMHVcGkZhfj99){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+::: 
+:::
+:::
