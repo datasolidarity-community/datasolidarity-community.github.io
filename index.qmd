@@ -48,7 +48,7 @@ format:
 ### "Data solidarity argues that the predominant Western approach to try to address power asymmetries by giving people more control over their data at the individual level is insufficient to solve structural problems. This instead requires strengthening collective forms of control, responsibility, and oversight."
 <br>
 
-Barbara Prainsack & Seliem El-Sayed (2023) Beyond Individual Rights: How Data Solidarity Gives People Meaningful Control over Data, The American Journal of Bioethics, 23:11, 36-39, DOI: [https://doi.org/10.1080/15265161.2023.2256267](resources/prainsack2023beyond.pdf)
+Barbara Prainsack & Seliem El-Sayed (2023) Beyond Individual Rights: How Data Solidarity Gives People Meaningful Control over Data, The American Journal of Bioethics, 23:11, 36-39, DOI: [https://doi.org/10.1080/15265161.2023.2256267](read-more/prainsack2023beyond.qmd)
 :::
 
 ::: {.g-col-2}
