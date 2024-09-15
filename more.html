@@ -25,6 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -50,12 +52,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -70,14 +130,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./more.html">Read more | Lees meer</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -95,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./more.html" class="sidebar-item-text sidebar-link">
+  <a href="./more.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Read more | Lees meer</span></a>
   </div>
 </li>
@@ -112,107 +172,147 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 
 
 
-<div class="p-5 mb-4 bg-light rounded-3 bgimg">
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">Data solidarity:<br>towards better collective control of health data</h1>
-  </div>
-</div>
-<p class="lead">
-   <small class="text-hero">ANNOUNCING A WORKING CONFERENCE ON DATA SOLIDARITY IN HEALTHCARE<br>
-   NATIONAL HEALTH CARE INSTITUTE<br>DIEMEN, THE NETHERLANDS   |   13 December 2024 </small>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1698184800000" data-listing-file-modified-sort="1726412382524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./read-more/prainsack2023beyond.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/barbara.jpg" class="thumbnail-image card-img" style="height: 440px;">
 </p>
-<style type="text/css">
-.lead {
-    font-family: "Zilla Slab";
-    text-align: center;
-}
-
-.bgimg {
-  background-image: url('hero-smaller.png');
-  Background-size: cover;
-}
-.hero-quote {
-  font-family: "Zilla Slab";
-  font-color: white;
-  color: white;
-}
-
-.fw-bold {
-  /* font-family: "Zilla Slab Highlight"; */
-  font-style: bold !important;
-  color: black !important;
-}
-</style>
-<p><br><br></p>
-<div class="grid">
-<div class="g-col-2">
-
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Beyond Individual Rights - How Data Solidarity Gives People Meaningful Control over Data
+</h5>
+<div class="card-text listing-description">
+In today’s digital societies, it has become very difficult for people to exercise meaningful control over what and how data is collected and used. The Ethical Data Practices…
 </div>
-<section id="data-solidarity-argues-that-the-predominant-western-approach-to-try-to-address-power-asymmetries-by-giving-people-more-control-over-their-data-at-the-individual-level-is-insufficient-to-solve-structural-problems.-this-instead-requires-strengthening-collective-forms-of-control-responsibility-and-oversight." class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="data-solidarity-argues-that-the-predominant-western-approach-to-try-to-address-power-asymmetries-by-giving-people-more-control-over-their-data-at-the-individual-level-is-insufficient-to-solve-structural-problems.-this-instead-requires-strengthening-collective-forms-of-control-responsibility-and-oversight.">“Data solidarity argues that the predominant Western approach to try to address power asymmetries by giving people more control over their data at the individual level is insufficient to solve structural problems. This instead requires strengthening collective forms of control, responsibility, and oversight.”</h3>
-<p><br></p>
-<p>Barbara Prainsack &amp; Seliem El-Sayed (2023) Beyond Individual Rights: How Data Solidarity Gives People Meaningful Control over Data, The American Journal of Bioethics, 23:11, 36-39, DOI: <a href="resources/prainsack2023beyond.pdf">https://doi.org/10.1080/15265161.2023.2256267</a></p>
-</section>
-<div class="g-col-2">
-
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Barbara Prainsack, Seliem El-Sayed
 </div>
-</div>
-<p><br><br></p>
-<div id="light-grey-background">
-<div class="grid">
-<section id="join-us-for-the-inaugural-european-working-conference-on-data-solidarity-in-healthcare." class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="join-us-for-the-inaugural-european-working-conference-on-data-solidarity-in-healthcare.">Join us for the inaugural European working conference on data solidarity in healthcare.</h3>
-<p>Be part of a pioneering event where we delve into the practical implementation of key concepts like data solidarity, data commons, data governance, and regenerative AI.</p>
-<p>Featuring insights from leading experts including Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, Robin van Kessel, and Bart de Witte, this conference promises a rich exchange of ideas and innovative strategies. Sessions will be conducted in both Dutch and English.</p>
-<p>Don’t miss this opportunity to contribute to the future of data in healthcare!</p>
-<a href="./register.html" class="btn btn-primary btn-lg" type="button">Register</a>
-</section>
-<div class="g-col-4">
-<p><br></p>
-<p><img src="images/noun-generative-ai-inverse.png" class="img-fluid"></p>
+<div class="listing-date">
+Oct 2023
 </div>
 </div>
 </div>
-<style>
-#light-grey-background {
-  padding-top: 35px;
-  padding-bottom: 20px;
-  padding-left: 35px;
-  background-color: #164272;
-  color: #ffffff;
-  border-radius: .3rem !important;
-}
-#logo-board {
-  padding-top: 20px;
-  border-radius: .3rem !important;
-  background-color: #ffffff;
-}
-</style>
-<p><br><br></p>
-<div class="grid">
-<div class="g-col-2">
-
 </div>
-<section id="doe-mee-aan-de-eerste-europese-werkconferentie-over-data-solidariteit-in-de-gezondheidszorg" class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="doe-mee-aan-de-eerste-europese-werkconferentie-over-data-solidariteit-in-de-gezondheidszorg">Doe mee aan de eerste Europese werkconferentie over data solidariteit in de gezondheidszorg</h3>
-<p>Wees onderdeel van een baanbrekend evenement waar we de praktische implementatie van sleutelconcepten zoals data solidarity, data commons, data governance en regenerative AI verkennen.</p>
-<p>Met inzichten van vooraanstaande experts, waaronder Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, Robin van Kessel en Bart de Witte, belooft deze conferentie een rijke uitwisseling van ideeën en oplossingsstrategieën. De sessies worden zowel in het Nederlands als in het Engels gehouden.</p>
-<p>Mis deze kans niet om bij te dragen aan de toekomst van data in de gezondheidszorg!</p>
-<a href="./register.html" class="btn btn-primary btn-lg" type="button">Schrijf je in</a>
-</section>
-<div class="g-col-2">
-
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1698793200000" data-listing-file-modified-sort="1726412327187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./read-more/purtova2023data.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/nadezhda-purtova.jpeg" class="thumbnail-image card-img" style="height: 440px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data as an economic good, data as a commons, and data governance
+</h5>
+<div class="card-text listing-description">
+This paper provides a systematic and critical review of the economics literature on data as an economic good and draws lessons for data governance. We conclude that focusing…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Nadya Purtova, Gijs van Maanen
+</div>
+<div class="listing-date">
+Nov 2023
 </div>
 </div>
-
-
-
-</main> <!-- /main -->
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1724709600000" data-listing-file-modified-sort="1726413343498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./read-more/schmidt2024mapping.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/bart-en-robin.png" class="thumbnail-image card-img" style="height: 440px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data as an economic good, data as a commons, and data governance
+</h5>
+<div class="card-text listing-description">
+Regulatory frameworks for artificial intelligence (AI) are needed to mitigate risks while ensuring the ethical, secure, and effective implementation of AI technology in…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Bart de Witte, Robin van Kessel et al.
+</div>
+<div class="listing-date">
+Aug 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1631829600000" data-listing-file-modified-sort="1726411486553" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./read-more/verheij2021zorglandschap.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/robert-verheij.jpeg" class="thumbnail-image card-img" style="height: 440px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Het datalandschap als voedselbos voor een lerend zorgsysteem
+</h5>
+<div class="card-text listing-description">
+Met de meest geavanceerde technieken genereren we enorme hoeveelheden data, ook op het gebied van gezondheid en gezondheidszorg. We zien dat deze data nog onvoldoende…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Robert Verheij
+</div>
+<div class="listing-date">
+Sep 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1498860000000" data-listing-file-modified-sort="1726411726787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./read-more/taylor2017what.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/linnet-taylor.jpg" class="thumbnail-image card-img" style="height: 440px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+What is data justice? The case for connecting digital rights and freedoms globally
+</h5>
+<div class="card-text listing-description">
+The increasing availability of digital data reflecting economic and human development, and in particular the availability of data emitted as a by-product of people’s use of…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Linnet Taylor
+</div>
+<div class="listing-date">
+Jul 2017
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
