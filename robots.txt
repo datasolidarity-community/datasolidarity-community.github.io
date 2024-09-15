@@ -1,1 +1,1 @@
-Sitemap: https://datasolidarity-community.github.io/sitemap.xml
+Sitemap: https://datasolidarity.community/sitemap.xml
