@@ -22,7 +22,7 @@ format:
 }
 
 .bgimg {
-  background-image: url('hero-smaller.png');
+  background-image: url('/images/hero-smaller.png');
   Background-size: cover;
 }
 .hero-quote {
