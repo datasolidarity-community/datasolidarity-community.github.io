@@ -13,7 +13,7 @@ format:
 </div>
 <p class="lead">
    <small class="text-hero">ANNOUNCING A WORKING CONFERENCE ON DATA SOLIDARITY IN HEALTHCARE<br>
-   NATIONAL HEALTH CARE INSTITUTE<br>DIEMEN, THE NETHERLANDS &ensp; | &ensp; 13 December 2024 </small>
+   NATIONAL HEALTH CARE INSTITUTE<br>DIEMEN, THE NETHERLANDS &ensp; | &ensp; 13 December 2024, 09.30-17.00h </small>
 </p>
 <style type="text/css">
 .lead {
@@ -59,7 +59,7 @@ Barbara Prainsack & Seliem El-Sayed (2023) Beyond Individual Rights: How Data So
 :::: {#light-grey-background}
 ::: {.grid}
 ::: {.g-col-8}
-### Join us for the inaugural European working conference on data solidarity in healthcare.
+### Join us for the inaugural European working conference on data solidarity in healthcare (13 December 2024, 09.30-17.00h).
 
 Be part of a pioneering event where we delve into the practical implementation of key concepts like data solidarity, data commons, data governance, and regenerative AI.
 
@@ -106,7 +106,7 @@ Don’t miss this opportunity to contribute to the future of data in healthcare!
 :::
 
 ::: {.g-col-8}
-### Doe mee aan de eerste Europese werkconferentie over data solidariteit in de gezondheidszorg
+### Doe mee aan de eerste Europese werkconferentie over data solidariteit in de gezondheidszorg (13 December 2024, 09.30-17.00h).
 
 Wees onderdeel van een baanbrekend evenement waar we de praktische implementatie van sleutelconcepten zoals data solidarity, data commons, data governance en regenerative AI verkennen.
 
