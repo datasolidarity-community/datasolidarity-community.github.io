@@ -1,12 +1,11 @@
 ---
 title: Mapping the regulatory landscape for articifical intelligence in health within the European Union
 author:
-    - Bart de Witte
     - Robin van Kessel et al.
 description: |
     Regulatory frameworks for artificial intelligence (AI) are needed to mitigate risks while ensuring the ethical, secure, and effective implementation of AI technology in healthcare and population health. In this article, wepresent a synthesis of 141 binding policies applicable to AI in healthcare and population health in the EU and 10 European countries. The EU AI Act sets the overall regulatory framework for AI, while other legislations set social, health, and human rights standards, address the safety of technologies and the implementation of innovation, and ensure the protection and safe use of data. Regulation specifically pertaining to AI is still nascent and scarce, though a combination of data, technology, innovation, and health and human rights policy has already formed a baseline regulatory framework for AI in health. Future work should explore specific regulatory challenges, especially with respect to AI medical devices, data protection, and data enablement.
 date: 2024-08-27
-image: /images/bart-en-robin.png
+image: /images/Robin-Kessel.png
 title-block-banner: false
 toc: false
 ---
