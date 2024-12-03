@@ -68,7 +68,7 @@ Featuring insights from leading experts including Barbara Prainsack, Nadya Purto
 Interested to read more on data solidarity? The Digital Transformations for Health (DTH) Lab recently published a comprehensive glossary.
 
 ```{=html}
-<a href="https://dthlab.org/data-solidarity-glossary/" class="btn btn-primary btn-lg" type="button">Read glossary</a>
+<a href="https://dthlab.org/data-solidarity-glossary/" class="btn btn-primary btn-lg" type="button">Read the Data Solidarity Glossary</a>
 ```
 :::
 
