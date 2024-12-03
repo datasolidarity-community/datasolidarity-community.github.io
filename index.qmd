@@ -65,10 +65,10 @@ Be part of a pioneering event where we delve into the practical implementation o
 
 Featuring insights from leading experts including Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij, and Robin van Kessel, this conference promises a rich exchange of ideas and innovative strategies. Sessions will be conducted in both Dutch and English.
 
-Don’t miss this opportunity to contribute to the future of data in healthcare!
+Interested to read more on data solidarity? The Digital Transformations for Health (DTH) Lab recently published a comprehensive glossary.
 
 ```{=html}
-<a href="register.qmd" class="btn btn-primary btn-lg" type="button">Register</a>
+<a href="https://dthlab.org/data-solidarity-glossary/" class="btn btn-primary btn-lg" type="button">Read glossary</a>
 ```
 :::
 
@@ -112,10 +112,10 @@ Wees onderdeel van een baanbrekend evenement waar we de praktische implementatie
 
 Met inzichten van vooraanstaande experts, waaronder Barbara Prainsack, Nadya Purtova, Linnet Taylor, Robert Verheij en Robin van Kessel, belooft deze conferentie een rijke uitwisseling van ideeën en oplossingsstrategieën. De sessies worden zowel in het Nederlands als in het Engels gehouden.
 
-Mis deze kans niet om bij te dragen aan de toekomst van data in de gezondheidszorg!
+Wil je meer weten over datasolidariteit? In de aanloop naar het congres hebben wij een Nederlandse lexicon opgesteld.
 
 ```{=html}
-<a href="register.qmd" class="btn btn-primary btn-lg" type="button">Schrijf je in</a>
+<a href="https://dthlab.org/wp-content/uploads/2024/12/Lexicon-Datasolidariteit-2024-%E2%80%93-Data-Solidarity-Glossary-Dutch-translation-Dec24.pdf" class="btn btn-primary btn-lg" type="button">Lees het Lexicon Datasolidariteit</a>
 ```
 
 :::
