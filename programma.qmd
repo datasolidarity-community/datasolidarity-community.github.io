@@ -1,0 +1,105 @@
+::: {.grid}
+
+::: {.g-col-8}
+```{=html}
+<div class="p-5 mb-4 bg-light rounded-3 bgimg">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Programma werkconferentie over data solidariteit in de gezondheidszorg<br></h1>
+  </div>
+</div>
+<style type="text/css">
+.lead {
+    font-family: "Zilla Slab";
+    text-align: center;
+}
+
+.bgimg {
+  background-image: url('/images/hero-smaller.png');
+  Background-size: cover;
+}
+.hero-quote {
+  font-family: "Zilla Slab";
+  font-color: white;
+  color: white;
+}
+
+.fw-bold {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-style: bold !important;
+  color: black !important;
+}
+</style>
+```
+## Algemene informatie
+
+- Locatie: [Zorginstituut Nederland](https://maps.app.goo.gl/sqD5QUrPw8mLS5fN7)
+- Vrijdag 13 december 2024, 9:30 tot 17:30
+
+:::{.callout-tip}
+Bij het Zorginstituut geldt een legitimatieplicht. Bezoekers kunnen zich legitimeren met paspoort, rijbewijs of identiteitskaart. Medewerkers van ministeries kunnen zich legitimeren met hun toegangspas, als die is voorzien van naam en pasfoto.
+:::
+
+:::{.callout-tip}
+Bij het bezoeken van het Zorginstituut moet u rekening houden met beperkte parkeergelegenheid rondom het gebouw. De parkeerplekken bevinden zich in een blauwe zone. Dit betekent dat u daar maximaal 2 uur mag parkeren. Liever komt u met het openbaar vervoer. Station Diemen-Zuid ligt op 3 minuten lopen van het gebouw.
+:::
+
+## Programma
+:::{.panel-tabset}
+## Ochtendsessie: Keynotes
+
+#### 9:30 uur - Ontvangst en Registratie
+#### 10:00 uur - Opening: Plenaire sessie
+
+- Welkomstwoord door Mark Janssen (Voorzitter Raad van Bestuur Zorginstituut)
+- Presentatie van de Centrale Casus van de Dag: _Hoe kunnen we alle data die door het Zorginstituut wordt verwerkt maximaal publiek beschikbaar maken?_
+
+#### 10:30 uur - Keynote: Robert Verheij
+**Thema: Lerende Ecosystemen & Vertrouwen**
+
+#### 11:10 uur - Koffie- en Theepauze
+
+#### 11:30 uur - Keynote: Barbara Prainsack
+**Thema: Datasolidariteit & PLUTO Tool**
+
+
+#### 12:10 uur - Keynote: Linnet Taylor
+**Thema: Endorsement Consent**
+
+#### 12:50 uur - Afsluiting Ochtendsessie en Introductie Middagprogramma
+#### 13:00 uur - Lunch
+
+## Middagsessie: Workshops
+
+**14:00 - 16:00 uur - Thematische Workshops gebaseerd op Centrale Casus**
+
+#### Workshop A: Lerend Ecosysteem
+Speciaal aandachtspunt: Samenwerking tussen Publieke en Private Partijen
+
+- Sprekers: Robert Verheij, Robin van Kessel
+- Facilitator: Egge van der Poel
+
+#### Workshop B: Datasolidariteit
+Speciaal aandachtspunt: Implementatie en Evaluatie van de PLUTO Tool
+
+- Sprekers: Barbara Prainsack, Nadya Purtova
+- Facilitator: Daniel Kapitan
+
+#### Workshop C: Endorsement Consent
+Speciaal aandachtspunt: Vraagstukken rondom Grondslagen en Governance
+
+- Sprekers: Linnet Taylor, Antoinette Vlieger
+- Facilitator: Teresa Cardoso Ribeiro - Van den Muijzenberg
+
+#### 16:00 uur - Plenaire Terugkoppeling en Finale Wrap-up
+
+#### 16:45 uur – Netwerkborrel
+ 
+#### 17:30 uur - Einde
+:::
+
+:::
+
+::: {.g-col-4}
+:::
+
+:::
